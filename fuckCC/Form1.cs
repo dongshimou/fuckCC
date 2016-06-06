@@ -62,7 +62,7 @@ namespace fuckCC
         void Login()
         {
             Main.smethod_8(textBox1.Text, textBox2.Text, true);
-            //开始登录
+            //初始化hashtable
 
             Main.ipendPoint_0 = new IPEndPoint(Dns.GetHostAddresses("net.nsu.edu.cn")[0], 8080);
             Main.udpClient_0.Client.IOControl((IOControlCode)2550136844L, new byte[1], null);

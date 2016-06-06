@@ -130,7 +130,7 @@ namespace fuckCC
             return result;
         }
         //thread2
-        public static void smethod_6()
+        public static void smethod_6()//登录进程
         {
             while (true)
             {
@@ -227,7 +227,7 @@ namespace fuckCC
                 string_6 = string_6 + "&TICK" + Conversions.ToString(DateAndTime.Now.Ticks);
             else
                 string_6 = string_6 + "?TICK" + Conversions.ToString(DateAndTime.Now.Ticks);
-            //后面还有一大堆
+            //后面还有一大堆、貌似是设置背景图
         }
         private static void smethod_14(Hashtable hashtable_0)
         {
@@ -488,7 +488,7 @@ namespace fuckCC
             str = Convert.ToBase64String(stream.ToArray());
             return str;
         }
-        public static void smethod_17()//保持链接
+        public static void smethod_17()//变换hashtable
         {
             int num = 1;
             do
